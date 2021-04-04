@@ -1,0 +1,59 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<div>
+    <h3>Movie</h3>
+    @if (movies == null)
+    {
+        <text> Loading....</text>
+    }
+    else
+    {
+        @foreach ( var movie in movies  )
+        {
+            <p>Title: <b> @movie.Title </b></p>
+            <p> Release Date: <b> @movie.ReleaseDate.ToString("dd MMM yyyy")  </b>   </p>
+        }
+
+
+
+    }
+
+
+
+</div>
+
+@code 
+{
+    string name = "Julia";
+
+    List<Movie> movies;
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        await Task.Delay(3000);
+
+        movies = new List<Movie>()
+        {
+            new Movie(){ Title = "Spider Man: Far from Home", ReleaseDate = new DateTime(2019, 7, 2)  },
+            new Movie(){ Title = "Moana", ReleaseDate = new DateTime(2019, 7, 2)  },
+            new Movie(){ Title = "Pica Piedras", ReleaseDate = new DateTime(2019, 7, 2)  }
+        };
+
+    }
+
+
+
+
+
+
+
+
+
+}
