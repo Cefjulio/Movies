@@ -105,7 +105,7 @@ using InterviewApp_1._0.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\FetchData.razor"
+#line 40 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\FetchData.razor"
        
     private WeatherForecast[] forecasts;
 

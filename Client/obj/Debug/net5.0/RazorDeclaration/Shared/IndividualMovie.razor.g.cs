@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace InterviewApp_1._0.Client.Pages
+namespace InterviewApp_1._0.Client.Shared
 {
     #line hidden
     using System;
@@ -89,8 +89,7 @@ using InterviewApp_1.Shared.Entities;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class IndividualMovie : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,33 +97,9 @@ using InterviewApp_1.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\Index.razor"
- 
-
-
-    private List<Movie> movies;
-    protected  override void OnInitialized()
-    {
-
-
-        movies = new List<Movie>()
-        {
-            new Movie(){ Title = "Spider Man: Far from Home", ReleaseDate = new DateTime(2019, 7, 2)  },
-            new Movie(){ Title = "Moana", ReleaseDate = new DateTime(2019, 7, 2)  },
-            new Movie(){ Title = "Pica Piedras", ReleaseDate = new DateTime(2019, 7, 2)  }
-        };
-
-    }
-
-
-
-
-
-
-
-
-
-
+#line 8 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Shared\IndividualMovie.razor"
+       
+    [Parameter] public Movie Movie { get; set; }
 
 #line default
 #line hidden

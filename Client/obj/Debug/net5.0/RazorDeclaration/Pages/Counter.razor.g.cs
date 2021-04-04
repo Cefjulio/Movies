@@ -98,7 +98,7 @@ using InterviewApp_1.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\Counter.razor"
+#line 11 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\Counter.razor"
        
     private int currentCount = 0;
 

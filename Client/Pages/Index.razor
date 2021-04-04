@@ -1,43 +1,21 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
-
 <div>
     <h3>Movie</h3>
-    @if (movies == null)
-    {
-        <text> Loading....</text>
-    }
-    else
-    {
-        @foreach ( var movie in movies  )
-        {
-            <p>Title: <b> @movie.Title </b></p>
-            <p> Release Date: <b> @movie.ReleaseDate.ToString("dd MMM yyyy")  </b>   </p>
-        }
+    
 
-
-
-    }
-
-
+    <MoviesList Movies="movies"    />
 
 </div>
 
 @code 
 {
-    string name = "Julia";
-
-    List<Movie> movies;
 
 
-    protected async override Task OnInitializedAsync()
+    private List<Movie> movies;
+    protected  override void OnInitialized()
     {
-        await Task.Delay(3000);
+
 
         movies = new List<Movie>()
         {
@@ -47,6 +25,7 @@ Welcome to your new app.
         };
 
     }
+
 
 
 

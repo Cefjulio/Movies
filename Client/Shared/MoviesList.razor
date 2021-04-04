@@ -1,0 +1,29 @@
+﻿@if (Movies == null)
+{
+    
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Floading.io%2Fspinner%2Fcustom%2F164145&psig=AOvVaw3khWfZ46MAArDtrobPDkm9&ust=1617609246697000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjpgseN5O8CFQAAAAAdAAAAABAD"    />
+
+
+}
+else if (Movies.Count == 0)
+{
+    <text> There are no records to show</text>
+}
+else
+{
+
+    <p>Si llega aqui</p>
+
+    @foreach (var movie in Movies)
+    {
+        <IndividualMovie Movie="movie"  />
+    }
+}
+
+
+@code {
+
+    [Parameter]  public List<Movie> Movies { get; set; }
+
+
+}

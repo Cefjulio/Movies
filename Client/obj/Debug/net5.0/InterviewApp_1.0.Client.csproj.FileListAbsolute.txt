@@ -634,3 +634,7 @@ C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\Inter
 C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\InterviewApp_1.0.Client.dll
 C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\ref\InterviewApp_1.0.Client.dll
 C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\InterviewApp_1.0.Client.pdb
+C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\MoviesList.razor.g.cs
+C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\Razor\Shared\MoviesList.razor.g.cs
+C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\IndividualMovie.razor.g.cs
+C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\Razor\Shared\IndividualMovie.razor.g.cs

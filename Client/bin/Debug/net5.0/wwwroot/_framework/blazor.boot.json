@@ -196,12 +196,12 @@
       "netstandard.dll": "sha256-P8xX0ad1hKyWWbBxiXl3cYokFlDiuXwp3pqoYatH0kk=",
       "System.Private.CoreLib.dll": "sha256-2km83sNUTrumGJYdDzsN8RnJqv00vKWLCCh0UGajTB4=",
       "InterviewApp_1.0.Shared.dll": "sha256-dS0dfGXcPDjgkzkqhH0cRPnDHRt7NKIPYgCzzSBi824=",
-      "InterviewApp_1.0.Client.dll": "sha256-D8RmS794yRQ0XD8w5tYtjmJ6pQdpuBytGjurfZYaTiA="
+      "InterviewApp_1.0.Client.dll": "sha256-GpW\/6SNPBHEw8\/h8yt0CQ73gX6NDU2skGzP0De56GD4="
     },
     "lazyAssembly": null,
     "pdb": {
       "InterviewApp_1.0.Shared.pdb": "sha256-L4ehmrujrUf78+sr5yrxDGOQ840LhEl0JnGbUAIP6RU=",
-      "InterviewApp_1.0.Client.pdb": "sha256-o2QGjgHDB8bvkJhVpGw62AqRM2hB1isPs2SPsMZ+eL0="
+      "InterviewApp_1.0.Client.pdb": "sha256-QUB++6zRpsLKIsorfbxRNiS6v4GJoBDwbnfpaiQWMLo="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-ibxaSjW7s3aLVssChknhzCpgMTHGu4D48Q9OLP3dfe8=",
