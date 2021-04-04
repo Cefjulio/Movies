@@ -97,9 +97,16 @@ using InterviewApp_1.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 8 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Shared\IndividualMovie.razor"
+#line 14 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Shared\IndividualMovie.razor"
        
     [Parameter] public Movie Movie { get; set; }
+    [Parameter] public bool DisplayButtons { get; set; } = false;
+ 
+    void Delete()
+    {
+        Console.WriteLine($"Deleting {Movie.Title}");
+    }
+
 
 #line default
 #line hidden

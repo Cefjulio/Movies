@@ -101,6 +101,7 @@ using InterviewApp_1.Shared.Entities;
        
 
     [Parameter]  public List<Movie> Movies { get; set; }
+    bool displayButtons = false;
 
 
 
