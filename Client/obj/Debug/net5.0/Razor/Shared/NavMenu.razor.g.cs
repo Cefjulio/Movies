@@ -86,6 +86,13 @@ using InterviewApp_1.Shared.Entities;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\_Imports.razor"
+using InterviewApp_1.Client.Helpers;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

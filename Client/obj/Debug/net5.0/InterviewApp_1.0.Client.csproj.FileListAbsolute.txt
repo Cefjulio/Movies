@@ -638,3 +638,6 @@ C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\Razor
 C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\Razor\Shared\MoviesList.razor.g.cs
 C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\IndividualMovie.razor.g.cs
 C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\Razor\Shared\IndividualMovie.razor.g.cs
+C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\GenericList.razor.g.cs
+C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\Razor\Shared\GenericList.razor.g.cs
+C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\obj\Debug\net5.0\scopedcss\Pages\Counter.razor.rz.scp.css

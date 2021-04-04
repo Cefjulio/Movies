@@ -90,6 +90,13 @@ using InterviewApp_1.Shared.Entities;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\_Imports.razor"
+using InterviewApp_1.Client.Helpers;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\FetchData.razor"
 using InterviewApp_1._0.Shared;
 

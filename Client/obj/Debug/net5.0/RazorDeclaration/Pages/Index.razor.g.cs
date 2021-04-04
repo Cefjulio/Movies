@@ -89,6 +89,13 @@ using InterviewApp_1.Shared.Entities;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\_Imports.razor"
+using InterviewApp_1.Client.Helpers;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,21 +105,16 @@ using InterviewApp_1.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 15 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\Index.razor"
+#line 14 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\Index.razor"
  
 
 
-    private List<Movie> movies;
-    protected  override void OnInitialized()
+    List<Movie> movies;
+    protected async  override Task OnInitializedAsync()
     {
 
-
-        movies = new List<Movie>()
-        {
-            new Movie(){ Title = "Spider Man: Far from Home", ReleaseDate = new DateTime(2019, 7, 2)  },
-            new Movie(){ Title = "Moana", ReleaseDate = new DateTime(2019, 7, 2)  },
-            new Movie(){ Title = "Pica Piedras", ReleaseDate = new DateTime(2019, 7, 2)  }
-        };
+        await Task.Delay(3000);
+        movies = repository.GetMovies();
 
     }
 
@@ -130,7 +132,6 @@ using InterviewApp_1.Shared.Entities;
 #line hidden
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IRepository repository { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private SingletonService singleton { get; set; }
     }
 }
 #pragma warning restore 1591

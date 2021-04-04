@@ -89,6 +89,13 @@ using InterviewApp_1.Shared.Entities;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\_Imports.razor"
+using InterviewApp_1.Client.Helpers;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,14 +105,19 @@ using InterviewApp_1.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\Counter.razor"
+#line 12 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Pages\Counter.razor"
        
-    private int currentCount = 0;
 
-    private void IncrementCount()
+    public int currentCount = 0;
+
+    public void IncrementCount()
     {
         currentCount++;
     }
+
+
+
+
 
 #line default
 #line hidden
