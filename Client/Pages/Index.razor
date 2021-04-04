@@ -1,5 +1,7 @@
 ﻿@page "/"
 
+@inject IRepository repository  
+
 <div>
     <h3>Movie</h3>
     
@@ -12,17 +14,12 @@
 {
 
 
-    private List<Movie> movies;
-    protected  override void OnInitialized()
+    List<Movie> movies;
+    protected async  override Task OnInitializedAsync()
     {
 
-
-        movies = new List<Movie>()
-        {
-            new Movie(){ Title = "Spider Man: Far from Home", ReleaseDate = new DateTime(2019, 7, 2)  },
-            new Movie(){ Title = "Moana", ReleaseDate = new DateTime(2019, 7, 2)  },
-            new Movie(){ Title = "Pica Piedras", ReleaseDate = new DateTime(2019, 7, 2)  }
-        };
+        await Task.Delay(3000);
+        movies = repository.GetMovies();
 
     }
 
