@@ -97,11 +97,16 @@ using InterviewApp_1.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 24 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Shared\MoviesList.razor"
+#line 25 "C:\Users\auyon.j6356\source\repos\InterviewApp_1.0\Client\Shared\MoviesList.razor"
        
 
     [Parameter]  public List<Movie> Movies { get; set; }
     bool displayButtons = false;
+
+    private void DeleteMovie(Movie movie)
+    {
+        Movies.Remove(movie);
+    }
 
 
 

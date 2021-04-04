@@ -101,11 +101,8 @@ using InterviewApp_1.Shared.Entities;
        
     [Parameter] public Movie Movie { get; set; }
     [Parameter] public bool DisplayButtons { get; set; } = false;
- 
-    void Delete()
-    {
-        Console.WriteLine($"Deleting {Movie.Title}");
-    }
+    [Parameter] public EventCallback<Movie> DeleteMovie { get; set; }
+
 
 
 #line default
